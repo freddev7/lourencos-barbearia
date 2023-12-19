@@ -1,4 +1,5 @@
-import homephoto from "../assets/homephoto.jpg"
+import homephototwo from "../assets/homephototwo.jpg"
+import homephotothree from "../assets/homephotothree.jpg"
 import logo2 from "../assets/logo2.png"
 import styled from "styled-components";
 
@@ -10,7 +11,7 @@ export const HomeContainer = styled.div`
 `;
 
 export const FirstHomeContainer = styled.div`
-    background: linear-gradient(360deg, #3d3325 1%, rgba(255, 255, 255, 0) 256.61%), url(${homephoto});
+    background: linear-gradient(360deg, #3d3325 0%, rgba(255, 255, 255, 0) 226.61%), url(${homephototwo});
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -30,6 +31,10 @@ export const FirstHomeContainer = styled.div`
     }
 
     @media screen and (max-width: 590px) and (min-width: 320px) {
+        background: linear-gradient(360deg, #3d3325 0%, rgba(255, 255, 255, 0) 226.61%), url(${homephotothree});
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         padding: 2rem 1rem;
     }
 `;
@@ -195,7 +200,7 @@ export const TextFirstContainer = styled.div`
 
 export const SecondHomeContainer = styled.div`
     background-color: #3d3325;
-    padding: 3rem 0rem 3rem 0rem;
+    padding: 3rem 0rem 2rem 0rem;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -210,6 +215,11 @@ export const SecondHomeContainer = styled.div`
     font-weight:500;
     font-size:1.5rem;
     
+    }
+
+    img {
+        max-width:2rem;
+        margin-top:2rem;
     }
 
     @media screen and (max-width: 1024px) and (min-width: 961px) {
@@ -716,6 +726,7 @@ export const FourthContainer = styled.div`
     .space_assets {
         display:flex;
         flex-direction: column;
+       
     }
 
     .space_assets h3 {
@@ -759,7 +770,7 @@ export const FourthContainer = styled.div`
         position: absolute;
         z-index:1;
         background-color:#3d3325;
-        transform: translate(105px);
+        transform: translate(105px) translateY(-3px);
         padding:0.6rem 0.8rem 0.6rem 0.8rem;
         border-radius: 0rem 0rem 1rem 1rem;
     }
@@ -1072,11 +1083,12 @@ export const FourthContainer = styled.div`
         }
 
         .item_signature p {
-            line-height: 1.1rem;
+            line-height: 1rem;
+            line-height:1.3rem;
         }
 
         .item_signature .stroke {
-            display:none;
+            display: none;
         }
 
         .item_signature { 
@@ -1086,7 +1098,6 @@ export const FourthContainer = styled.div`
         .item_signature i {
             display:none;
         }
-
 
         .space_assets {
             padding: 0rem 1rem 0rem 1rem;

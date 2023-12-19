@@ -15,13 +15,11 @@ const Projects = () => {
 export default Projects;
 
 const Container = styled.div`
-    width: 86%;
-    max-width:1280px;
+    width: 100%;
+    max-width:100%;
     margin:0 auto;
+    overflow:hidden;
 
-    @media screen and (max-width: 390px) and (min-width: 320px)  {
-        width:80%;
-    }
 `
 
 const Slide = styled.div`    

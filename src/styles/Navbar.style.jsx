@@ -38,7 +38,7 @@ export const NavLogo = styled(Link)`
 `;
 
 export const NavIcon = styled.img`
-	width: 5rem;
+	width: 4.6rem;
 	
 	 @media screen and (max-width: 1440px) and (min-width: 1240px) {
 		margin-right:30rem;

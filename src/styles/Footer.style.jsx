@@ -83,7 +83,7 @@ export const FooterContainer = styled.div`
         font-size: 0.8rem;
         position: relative;
         left:1rem;
-        top: 0.1rem;
+        top: 0.2rem;
     }
    
 

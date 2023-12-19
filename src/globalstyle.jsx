@@ -12,11 +12,11 @@ export const GlobalStyle = createGlobalStyle`
         }
 
         .slick-prev:before {
-            color: #9b9275 ;
+            display:none;
         }
 
         .slick-next:before {
-            color: #9b9275 ;
+            display: none;
         }
     }
 

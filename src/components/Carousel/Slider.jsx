@@ -13,7 +13,7 @@ const SliderComp = () => {
     var settings = {
         dots: false,
         infinite: true,
-        speed: 1000,
+        speed: 500,
         autoplay: true,
         centerMode: true,
         slidesToShow: 3,
